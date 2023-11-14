@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  app_digimartshop:
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: app_digimartshop
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_USER: ${DB_USER}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      TZ: "America/Tegucigalpa"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - ${DB_PORT}:3306

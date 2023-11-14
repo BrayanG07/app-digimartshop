@@ -1,0 +1,4 @@
+export enum STATUS_COMMISSION {
+  EARNEAD = 'EARNEAD',
+  PAID = 'PAID',
+}

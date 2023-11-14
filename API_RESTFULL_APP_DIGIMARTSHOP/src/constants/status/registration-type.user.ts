@@ -1,0 +1,5 @@
+export enum REGISTRATION_TYPE {
+  GOOGLE = 'GOOGLE',
+  FACEBOOK = 'FACEBOOK',
+  BASIC = 'BASIC',
+}

@@ -1,0 +1,4 @@
+export enum STATUS_STOCK {
+  ACTIVE = 'ACTIVO',
+  INACTIVE = 'INACTIVO',
+}

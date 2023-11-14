@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "770487128361",
+    "project_id": "digimartshop",
+    "storage_bucket": "digimartshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770487128361:android:8e81163302f80f80146738",
+        "android_client_info": {
+          "package_name": "hn.digimartbox.digimartbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770487128361-tc0fj8oir8h9j3tbeifk2hq5srr7lgeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hn.digimartbox.digimartbox",
+            "certificate_hash": "48776137d0811ff15cee6c0b7f412fadd575e581"
+          }
+        },
+        {
+          "client_id": "770487128361-n3fg00dq0lbuaadd0refhob0ufk4cjkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDspXJmSQNy4UEg75rk0pYP_iDg4Fq7T5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770487128361-7tde1i9j5hbjnija7fnifubic3n55fod.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "770487128361-902tlp67a6lg06b0qa73gi7q45tkilu2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hn.digimartbox.digimartbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

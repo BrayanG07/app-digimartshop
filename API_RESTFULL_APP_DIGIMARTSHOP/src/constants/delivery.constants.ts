@@ -1,0 +1,6 @@
+export enum STATUS_DELIVERY {
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
+  FREE = 'FREE',
+  OCCUPIED = 'OCCUPIED',
+}

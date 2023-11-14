@@ -1,0 +1,4 @@
+export enum ROLE_USER {
+  CLIENT = 'CLIENTE',
+  DELIVERY = 'REPARTIDOR',
+}
