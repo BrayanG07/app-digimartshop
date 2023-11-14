@@ -1,6 +1,4 @@
-<p align="center">
-  App DigimartShop
-</p>
+# App DigimartShop
 
 ## Instalation
 1. Ingresar al archivo ```digimartshop\lib\src\environment\environment.dart```
