@@ -1,6 +1,6 @@
-<p align="center">
+<h2 align="center">
   REST API DigimartShop
-</p>
+</h2>
 
 
 ## Description
